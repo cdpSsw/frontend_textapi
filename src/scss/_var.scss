@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+$topic-headers: #020202;
+$black: #020202;
+$icons: #353535;
+$white: #fff;
+$dim_white: #D2D2D2; 
+$bg-active: #F3F7FF;
+$bg-content: #F3F3F3;
+$lines: #D2D2D2;
+
+$light-grey: #979797;
+
+$btn_success1: #13B35D;
+$btn_success2: #E5F9EE;
+$btn_waiting1: #F2A028;
+$btn_waiting2: #FDF8E7;
+$btn_update1: #0093FE;
+$btn_update2: #E7F3FF;
+$btn_danger1: #BF2C38;
+$btn_danger2: #FAE2E4;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sofia Sans Semi Condensed", "Prompt", sans-serif;
+}
+
+@mixin center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.notFoundImg{ height: 75vh; }
+.notFoundImg-home{ height: 50vh; }
+  
