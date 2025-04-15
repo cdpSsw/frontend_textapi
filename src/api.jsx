@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   // baseURL: 'https://api.comenspu.com:8000',
   // baseURL: 'https://203.150.243.10:8000',   //  TEST - GITHUB HOST
-  baseURL: 'https://api.comenspu.com:8000',   //  TEST - GITHUB HOST
+  baseURL: 'https://api.comenspu.com:443',   //  TEST - GITHUB HOST
   // baseURL: 'http://203.150.243.10:8000', // ✅ TEST - LOCALHOST SUCCESS
   timeout: 30000, // เพิ่มเวลา timeout
 });
